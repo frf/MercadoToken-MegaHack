@@ -77,6 +77,7 @@ export const Product = styled.div`
   
   img {
     width: 102px;
+    height: 102px;
     padding-left: 2px;
   }
 
