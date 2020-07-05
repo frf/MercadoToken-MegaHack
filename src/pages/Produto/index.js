@@ -5,12 +5,14 @@ import Header from '../../components/Header';
 
 import { Container, Infos, Price, Buy } from './styles';
 
+import ImgProduto from '../../assets/produtointerno.jpg';
+
 function Produto() {
   return (
     <>
       <Header />
       <Container>
-        <img src="https://http2.mlstatic.com/smart-tv-samsung-led-32-wi-fi-lh32bet-subst-lh32benelga-D_NQ_NP_838313-MLB42283911257_062020-O.webp" alt=""/>
+        <img src={ImgProduto} alt=""/>
         
         <Infos>
           <span>305 vendidos</span>

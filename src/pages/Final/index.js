@@ -2,7 +2,7 @@ import React from 'react';
 import { FiCheck } from 'react-icons/fi';
 
 import Logo from '../../assets/mercado-pago.svg';
-import MercadoToken from '../../assets/mercado token - horizontal.png';
+import MercadoToken from '../../assets/mercado-tokens.svg';
 
 import { Container, Topo } from './styles';
 

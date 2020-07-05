@@ -7,15 +7,23 @@ import { Container, Hero, Cards, Product } from './styles';
 
 import { FiChevronRight } from 'react-icons/fi';
 
+import Img01 from '../../assets/img01.jpg';
+import Img02 from '../../assets/img02.jpg';
+
+import Produto01 from '../../assets/produto01.jpg';
+import Produto02 from '../../assets/produto02.jpg';
+import Produto03 from '../../assets/produto03.jpg';
+import Produto04 from '../../assets/produto04.jpg';
+
 function Homepage() {
   return (
     <>
       <Header />
       <Container>
         <Hero>
-          <img src="https://http2.mlstatic.com/optimize/o:f_webp/resources/deals/exhibitors_resources/mlb-home-mobile-big-banner-picture-f1685513-cb4a-423a-bd66-d41f10fdc1e2.jpg" alt=""/>
+          <img src={Img01} alt=""/>
           <div className="credit-card">
-            <img src="https://http2.mlstatic.com/resources/frontend/homes-korriban/assets/images/payments/credit-card.svg" alt=""/>
+            <img src={Img02} alt=""/>
             <div className="text-block">
               <p>Até 12 vezes sem juros</p>
               <span>Ver mais</span>
@@ -27,7 +35,7 @@ function Homepage() {
           <h2>Ofertas</h2>
 
           <Product>
-            <img src="https://http2.mlstatic.com/D_Q_NP_2X_838946-MLA40678415866_022020-G.webp" alt=""/>
+            <img src={Produto01} alt=""/>
 
             <div className="infos">
               <h3>Samsung Galaxy A20s Dual Sim 32 Gb Vermelho 3 Gb Ram</h3>
@@ -41,7 +49,7 @@ function Homepage() {
 
           <Link to="/produto">
             <Product>
-              <img src="https://http2.mlstatic.com/D_Q_NP_2X_838313-MLB42283911257_062020-G.webp" alt=""/>
+              <img src={Produto02} alt=""/>
               
               <div className="infos">
                 <h3>Smart Tv Samsung Led 32 Wi-fi -lh32bet - Subst. Lh32benelga</h3>
@@ -55,7 +63,7 @@ function Homepage() {
           </Link>
 
           <Product>
-            <img src="https://http2.mlstatic.com/D_Q_NP_2X_669433-MLA40768066496_022020-G.webp" alt=""/>
+            <img src={Produto03} alt=""/>
             
             <div className="infos">
               <h3>Smart Tv Tcl 50p8m Led 4k 50</h3>
@@ -68,7 +76,7 @@ function Homepage() {
           </Product>
 
           <Product>
-            <img src="https://http2.mlstatic.com/D_Q_NP_2X_733179-MLB42318248990_062020-G.webp" alt=""/>
+            <img src={Produto04} alt=""/>
             
             <div className="infos">
               <h3>Aquecedor De Ar Elétrico Portátil 1500w A-08 Mondial</h3>

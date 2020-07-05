@@ -10,6 +10,8 @@ import Segunda from './pages/Segunda';
 import Cvc from './pages/Cvc';
 import Final from './pages/Final';
 
+import Vendas from './pages/Vendas';
+
 export default function Routes() {
   return (
     <BrowserRouter>
@@ -22,6 +24,8 @@ export default function Routes() {
         <Route path="/segunda" component={Segunda} />
         <Route path="/cvc" component={Cvc} />
         <Route path="/final" component={Final} />
+
+        <Route path="/vendas" component={Vendas} />
       </Switch>
     </BrowserRouter>
   )
