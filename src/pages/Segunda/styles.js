@@ -25,7 +25,7 @@ export const Topo = styled.div`
   display: flex;
   justify-content: center;
   background: #00B1EA;
-  padding: 40px 0;
+  padding: 30px 0;
 
   img {
     width: 120px;
