@@ -37,8 +37,8 @@ export const Container = styled.div`
   }
 
   img {
-    margin: 40px 0 40px;
-    width: 80px;
+    margin: 30px 0 40px;
+    width: 100px;
   }
 `;
 
