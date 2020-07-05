@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { FiCheck } from 'react-icons/fi';
 
 import Logo from '../../assets/mercado-pago.svg';
-import MercadoToken from '../../assets/mercado-tokens.svg';
+import MercadoToken from '../../assets/mercado-tokens-ok.png';
 
 import { Container, Topo } from './styles';
 
