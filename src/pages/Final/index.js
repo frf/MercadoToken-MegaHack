@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { FiCheck } from 'react-icons/fi';
 
 import Logo from '../../assets/mercado-pago.svg';
@@ -10,7 +11,7 @@ function Final() {
   return (
     <Container>
       <Topo>
-        <img src={Logo} alt=""/>
+        <Link to="vendas"><img src={Logo} alt=""/></Link>
       </Topo>
       
       <FiCheck size={28} />
